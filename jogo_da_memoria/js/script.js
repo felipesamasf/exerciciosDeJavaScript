@@ -27,6 +27,8 @@ const cards = document.querySelectorAll('.memory-card');
 let firstCard, secundCard;
 let lockCards = false;
 
+//escutar um evento de 'CLICK' em cada um dos 'memory-cards'.
+cards.forEach(card => card.addEventListener('click', flipCard));
 
 
 function flipCard(){
@@ -75,4 +77,3 @@ function resetCards (isMatch){
     [firstCard, secundCard, lockCards] = [null, null, false]
 }
 
-cards.forEach(card => card.addEventListener('click', flipCard));

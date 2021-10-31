@@ -23,7 +23,7 @@ body {
     height: 33%;
     margin: 5px;
     transform-style: preserve-3d;
-    transition: 0.3s;
+    transition: 0.5s;
     position: relative;
     
 }
